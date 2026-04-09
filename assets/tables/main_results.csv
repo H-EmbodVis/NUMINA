@@ -1,0 +1,3 @@
+Model,Method,CountAcc,CLIPScore,FVD
+Wan2.1-1.3B,Baseline,0,0,0
+Wan2.1-1.3B,NUMINA,0,0,0

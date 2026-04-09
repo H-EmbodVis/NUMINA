@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>When Numbers Speak | Project Page</title>
+    <meta
+      name="description"
+      content="When Numbers Speak: Aligning Textual Numerals and Visual Instances in Text-to-Video Diffusion Models"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="bg-glow bg-glow-a" aria-hidden="true"></div>
+    <div class="bg-glow bg-glow-b" aria-hidden="true"></div>
+
+    <header class="hero section">
+      <div class="container">
+        <p class="kicker">CVPR 2026</p>
+        <h1>
+          When Numbers Speak: Aligning Textual Numerals and Visual Instances in
+          Text-to-Video Diffusion Models
+        </h1>
+        <p class="subtitle">
+          Training-free identify-then-guide framework for count-accurate
+          text-to-video generation
+        </p>
+
+        <div class="authors">
+          <span><a class="author-link" href="">Zhengyang Sun</a><sup>1*</sup></span>
+          <span><a class="author-link" href="">Yu Chen</a><sup>1*</sup></span>
+          <span><a class="author-link" href="https://lmd0311.github.io/">Xin Zhou</a><sup>1,3</sup></span>
+          <span><a class="author-link" href="">Xiaofan Li</a><sup>2</sup></span>
+          <span><a class="author-link" href="https://scholar.google.com/citations?user=PVMQa-IAAAAJ&hl=en">Xiwu Chen</a><sup>3&#8224;</sup></span>
+          <span><a class="author-link" href="https://dk-liang.github.io/">Dingkang Liang</a><sup>1&#8224;</sup></span>
+          <span><a class="author-link" href="https://scholar.google.com/citations?user=UeltiQ4AAAAJ&hl=en">Xiang Bai</a><sup>1&#9993;</sup></span>
+        </div>
+
+        <p class="affiliations">
+          <sup>1</sup>Huazhong University of Science and Technology,
+          <sup>2</sup>Zhejiang University, <sup>3</sup>Afari Intelligent Drive
+        </p>
+        <p class="notes">
+          * Equal contribution. &#8224; Project lead. &#9993; Corresponding
+          author.
+        </p>
+
+        <div class="button-row">
+          <a class="btn btn-primary" href="#" aria-disabled="true">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M6 2h8l6 6v14H6V2zm8 1.5V9h5.5L14 3.5zM8.5 13h9v1.5h-9V13zm0 3h9v1.5h-9V16zm0-6h4.5V11H8.5V10z"
+              />
+            </svg>
+            Paper
+          </a>
+          <a class="btn" href="https://github.com/H-EmbodVis/NUMINA" aria-disabled="true">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M12 .5C5.65.5.5 5.66.5 12.02c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56 0-.27-.01-1-.02-1.97-3.2.7-3.88-1.55-3.88-1.55-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.71.08-.71 1.17.08 1.78 1.2 1.78 1.2 1.03 1.78 2.72 1.27 3.39.97.1-.75.4-1.27.73-1.56-2.55-.29-5.24-1.29-5.24-5.72 0-1.26.45-2.3 1.19-3.11-.12-.29-.52-1.46.11-3.04 0 0 .97-.31 3.18 1.19a10.95 10.95 0 0 1 5.79 0c2.2-1.5 3.17-1.19 3.17-1.19.64 1.58.24 2.75.12 3.04.74.81 1.19 1.85 1.19 3.11 0 4.44-2.69 5.43-5.25 5.72.41.35.77 1.03.77 2.08 0 1.5-.02 2.72-.02 3.08 0 .31.21.67.8.56a11.53 11.53 0 0 0 7.84-10.91C23.5 5.66 18.35.5 12 .5z"
+              />
+            </svg>
+            Code
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container">
+          <h2>TL;DR</h2>
+          <p class="abstract-text">
+            NUMINA is a training-free framework that tackles numerical
+            misalignment in text-to-video diffusion models - the persistent
+            failure of T2V models to generate the correct count of objects
+            specified in prompts (e.g., producing 2 or 4 cats when "three cats"
+            is requested). Unlike seed search or prompt enhancement approaches
+            that treat the generation pipeline as a black box and rely on
+            brute-force resampling or LLM-based prompt rewriting, NUMINA
+            directly identifies where and why counting errors occur inside the
+            model by analyzing cross-attention and self-attention maps at
+            selected DiT layers. It constructs a countable spatial layout via a
+            two-stage clustering pipeline, then performs layout-guided attention
+            modulation during regeneration to enforce the correct object count -
+            all without retraining or fine-tuning. On our introduced
+            CountBench, this attention-level intervention provides principled,
+            interpretable control over numerical semantics that seed search and
+            prompt enhancement fundamentally cannot achieve, improves counting
+            accuracy by up to 7.4% on Wan2.1-1.3B. Furthermore, because NUMINA
+            operates partly orthogonally to inference acceleration techniques,
+            it is compatible with training-free caching methods such as
+            <a href="https://github.com/H-EmbodVis/EasyCache">EasyCache</a>,
+            which accelerates diffusion inference via runtime-adaptive
+            transformer output reuse.
+          </p>
+        </div>
+      </section>
+
+      <section class="section alt">
+        <div class="container">
+          <h2>Demos</h2>
+          <h3 class="demo-group-title">Robustness on Removal</h3>
+          <p class="abstract-text">
+            Our method is highly robust for <strong>remove</strong> operations.
+          </p>
+          <div class="demo-stack">
+            <article class="card demo-row">
+              <h3>Case 1</h3>
+              <p class="pair-prompt">
+                <strong>Prompt:</strong> Two kids playing with a dog and a cat.
+              </p>
+              <div class="video-grid-2">
+                <div class="video-slot">
+                  <p class="slot-title">Wan2.1-1.3B(Baseline)</p>
+                  <video class="demo-video" autoplay loop muted playsinline controls preload="metadata">
+                    <source src="assets/videos/comparisons/a1_baseline.mp4" type="video/mp4" />
+                  </video>
+                </div>
+                <div class="video-slot">
+                  <p class="slot-title">NUMINA</p>
+                  <video class="demo-video" autoplay loop muted playsinline controls preload="metadata">
+                    <source src="assets/videos/comparisons/a1_ours.mp4" type="video/mp4" />
+                  </video>
+                </div>
+              </div>
+            </article>
+
+            <article class="card demo-row">
+              <h3>Case 2</h3>
+              <p class="pair-prompt">
+                <strong>Prompt:</strong> Two penguins sliding across the icy landscape, having fun.
+              </p>
+              <div class="video-grid-2">
+                <div class="video-slot">
+                  <p class="slot-title">Wan2.1-1.3B(Baseline)</p>
+                  <video class="demo-video" autoplay loop muted playsinline controls preload="metadata">
+                    <source src="assets/videos/comparisons/a2_baseline.mp4" type="video/mp4" />
+                  </video>
+                </div>
+                <div class="video-slot">
+                  <p class="slot-title">NUMINA</p>
+                  <video class="demo-video" autoplay loop muted playsinline controls preload="metadata">
+                    <source src="assets/videos/comparisons/a2_ours.mp4" type="video/mp4" />
+                  </video>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <h3 class="demo-group-title">Innovation on Addition</h3>
+          <p class="abstract-text">
+            Our method also demonstrates innovation and effectiveness for
+            <strong>addition</strong> scenarios.
+          </p>
+          <div class="demo-stack">
+            <article class="card demo-row">
+              <h3>Case 1</h3>
+              <p class="pair-prompt">
+                <strong>Prompt:</strong> Four children making two snowman.
+              </p>
+              <div class="video-grid-2">
+                <div class="video-slot">
+                  <p class="slot-title">Wan2.1-1.3B(Baseline)</p>
+                  <video class="demo-video" autoplay loop muted playsinline controls preload="metadata">
+                    <source src="assets/videos/comparisons/g4_baseline.mp4" type="video/mp4" />
+                  </video>
+                </div>
+                <div class="video-slot">
+                  <p class="slot-title">NUMINA</p>
+                  <video class="demo-video" autoplay loop muted playsinline controls preload="metadata">
+                    <source src="assets/videos/comparisons/g4_ours.mp4" type="video/mp4" />
+                  </video>
+                </div>
+              </div>
+            </article>
+
+            <article class="card demo-row">
+              <h3>Case 2</h3>
+              <p class="pair-prompt">
+                <strong>Prompt:</strong> Four students reading books under the tree.
+              </p>
+              <div class="video-grid-2">
+                <div class="video-slot">
+                  <p class="slot-title">Wan2.1-1.3B(Baseline)</p>
+                  <video class="demo-video" autoplay loop muted playsinline controls preload="metadata">
+                    <source src="assets/videos/comparisons/g5_baseline.mp4" type="video/mp4" />
+                  </video>
+                </div>
+                <div class="video-slot">
+                  <p class="slot-title">NUMINA</p>
+                  <video class="demo-video" autoplay loop muted playsinline controls preload="metadata">
+                    <source src="assets/videos/comparisons/g5_ours.mp4" type="video/mp4" />
+                  </video>
+                </div>
+              </div>
+            </article>
+
+            <article class="card demo-row">
+              <h3>Case 3</h3>
+              <p class="pair-prompt">
+                <strong>Prompt:</strong> Two kittens playing with two yarn balls.
+              </p>
+              <div class="video-grid-2">
+                <div class="video-slot">
+                  <p class="slot-title">Wan2.1-1.3B(Baseline)</p>
+                  <video class="demo-video" autoplay loop muted playsinline controls preload="metadata">
+                    <source src="assets/videos/comparisons/g6_baseline.mp4" type="video/mp4" />
+                  </video>
+                </div>
+                <div class="video-slot">
+                  <p class="slot-title">NUMINA</p>
+                  <video class="demo-video" autoplay loop muted playsinline controls preload="metadata">
+                    <source src="assets/videos/comparisons/g6_ours.mp4" type="video/mp4" />
+                  </video>
+                </div>
+              </div>
+            </article>
+
+            <article class="card demo-row">
+              <h3>Case 4</h3>
+              <p class="pair-prompt">
+                <strong>Prompt:</strong> Five explorers travelling through a dense jungle.
+              </p>
+              <div class="video-grid-2">
+                <div class="video-slot">
+                  <p class="slot-title">Wan2.1-1.3B(Baseline)</p>
+                  <video class="demo-video" autoplay loop muted playsinline controls preload="metadata">
+                    <source src="assets/videos/comparisons/g7_baseline.mp4" type="video/mp4" />
+                  </video>
+                </div>
+                <div class="video-slot">
+                  <p class="slot-title">NUMINA</p>
+                  <video class="demo-video" autoplay loop muted playsinline controls preload="metadata">
+                    <source src="assets/videos/comparisons/g7_ours.mp4" type="video/mp4" />
+                  </video>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <h3 class="demo-group-title">Comparison with Commercial Models</h3>
+          <p class="abstract-text">
+            Even these cutting-edge models frequently fail to satisfy the precise numerical constraints specified in the prompt.
+          </p>
+
+          <div class="demo-stack">
+            <article class="card demo-row">
+              <h3>Case</h3>
+              <p class="pair-prompt">
+                <strong>Prompt:</strong> Three cyclists riding through a trail with three mountain goats.
+              </p>
+              <div class="video-grid-3">
+                <div class="video-slot">
+                  <p class="slot-title">NUMINA</p>
+                  <video class="demo-video" autoplay loop muted playsinline controls preload="metadata">
+                    <source src="assets/videos/comparisons/g8_ours.mp4" type="video/mp4" />
+                  </video>
+                </div>
+                <div class="video-slot">
+                  <p class="slot-title">Veo 3.1</p>
+                  <video class="demo-video" autoplay loop muted playsinline controls preload="metadata">
+                    <source src="assets/videos/comparisons/g8_veo.mp4" type="video/mp4" />
+                  </video>
+                </div>
+                <div class="video-slot">
+                  <p class="slot-title">Grok Imagine</p>
+                  <video class="demo-video" autoplay loop muted playsinline controls preload="metadata">
+                    <source src="assets/videos/comparisons/g8_grok.mp4" type="video/mp4" />
+                  </video>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <h2>Cross-Model Demos</h2>
+          <p class="abstract-text">
+            NUMINA remains effective across different models.
+          </p>
+          <div class="demo-stack">
+            <article class="card demo-row">
+              <h3>Wan2.1-14B</h3>
+              <p class="pair-prompt">
+                <strong>Prompt:</strong> Four chefs preparing a meal in the kitchen.
+              </p>
+              <div class="video-grid-2">
+                <div class="video-slot">
+                  <p class="slot-title">Wan2.1-14B(Baseline)</p>
+                  <video class="demo-video" autoplay loop muted playsinline controls preload="metadata">
+                    <source src="assets/videos/comparisons/14b_baseline.mp4" type="video/mp4" />
+                  </video>
+                </div>
+                <div class="video-slot">
+                  <p class="slot-title">NUMINA</p>
+                  <video class="demo-video" autoplay loop muted playsinline controls preload="metadata">
+                    <source src="assets/videos/comparisons/14b_ours.mp4" type="video/mp4" />
+                  </video>
+                </div>
+              </div>
+            </article>
+
+            <article class="card demo-row">
+              <h3>Wan2.2-5B</h3>
+              <p class="pair-prompt">
+                <strong>Prompt:</strong> Four athletes riding bicycles through a mountain trail.
+              </p>
+              <div class="video-grid-2">
+                <div class="video-slot">
+                  <p class="slot-title">Wan2.2-5B(Baseline)</p>
+                  <video class="demo-video" autoplay loop muted playsinline controls preload="metadata">
+                    <source src="assets/videos/comparisons/5b_baseline.mp4" type="video/mp4" />
+                  </video>
+                </div>
+                <div class="video-slot">
+                  <p class="slot-title">NUMINA</p>
+                  <video class="demo-video" autoplay loop muted playsinline controls preload="metadata">
+                    <source src="assets/videos/comparisons/5b_ours.mp4" type="video/mp4" />
+                  </video>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt">
+        <div class="container">
+          <h2>Abstract</h2>
+          <p class="abstract-text">
+            Text-to-video diffusion models have enabled open-ended video
+            synthesis, but often struggle with generating the correct number of
+            objects specified in a prompt. We introduce
+            <strong>NUMINA</strong>, a training-free identify-then-guide
+            framework for improved numerical alignment. NUMINA identifies
+            prompt-layout inconsistencies by selecting discriminative self- and
+            cross-attention heads to derive a countable latent layout. It then
+            refines this layout conservatively and modulates cross-attention to
+            guide regeneration. On the introduced CountBench, NUMINA improves
+            counting accuracy by up to 7.4% on Wan2.1-1.3B, and by 4.9% and
+            5.5% on 5B and 14B models, respectively. Furthermore, CLIP
+            alignment is improved while maintaining temporal consistency. These
+            results demonstrate that structural guidance complements seed search
+            and prompt enhancement, offering a practical path toward
+            count-accurate text-to-video diffusion.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <h2>Method Overview</h2>
+          <div class="card method">
+            <img
+              src="assets/images/pipeline.png"
+              alt="NUMINA method overview"
+              class="method-image"
+              onerror="this.style.display='none';this.nextElementSibling.style.display='block';"
+            />
+            <object
+              data="assets/images/pipeline.pdf"
+              type="application/pdf"
+              class="method-figure"
+              style="display: none"
+            >
+              <p class="caption">
+                Figure preview not supported in this browser.
+                <a href="assets/images/pipeline.pdf">Open pipeline.pdf</a>.
+              </p>
+            </object>
+          </div>
+          <p class="pipeline-description">
+            The pipeline of our NUMINA follows a two-phase paradigm. Given a
+            text prompt containing numerals, we first perform the numerical
+            misalignment identification to extract explicitly countable layouts
+            from attention maps. Based on the layout, we further conduct a
+            refinement and a layout-guided generation for the numerically
+            aligned video generation.
+          </p>
+        </div>
+      </section>
+
+      <section class="section alt">
+        <div class="container">
+          <h2>BibTeX</h2>
+          <pre class="bibtex"><code>@inproceedings{sun2026numina,
+  title={When Numbers Speak: Aligning Textual Numerals and Visual Instances in Text-to-Video Diffusion Models},
+  author={Sun, Zhengyang and Chen, Yu and Zhou, Xin and Li, Xiaofan and Chen, Xiwu and Liang, Dingkang and Bai, Xiang},
+  booktitle={Proc. of IEEE Intl. Conf. on Computer Vision and Pattern Recognition},
+  year={2026}
+}</code></pre>
+        </div>
+      </section>
+    </main>
+
+    <footer class="section footer">
+      <div class="container">
+        <p>
+          This website is a placeholder draft. Update links, media, and tables
+          before public release.
+        </p>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

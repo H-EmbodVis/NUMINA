@@ -1,0 +1,23 @@
+g1：Three birds flying over a lake.
+
+g2：Two chefs and one waiter serving food in a restaurant.
+
+g3：Three cats surrounding two mice.
+
+g4: 	Four children making two snowman.
+
+g5:	Four students reading books under the tree.
+
+g6:	Two kittens playing with two yarn balls.
+
+g7:	Five explorers travelling through a dense jungle.
+
+g8：Three cyclists riding through a trail with three mountain goats.
+
+a1:	Two kids playing with a dog and a cat.
+
+a2:	Two penguins sliding across the icy landscape, having fun.
+
+14b: Four chefs preparing a meal in the kitchen
+
+5b: Four athletes riding bicycles through a mountain trail.
