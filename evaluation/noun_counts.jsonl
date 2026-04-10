@@ -1,0 +1,210 @@
+{"astronaut": 1}
+{"tiger": 1}
+{"person": 1}
+{"cat": 1}
+{"flower": 1}
+{"person": 1}
+{"dragon": 1}
+{"wolf": 1}
+{"candle": 1}
+{"deer": 1}
+{"person": 1}
+{"shark": 1}
+{"bird": 1}
+{"surfer": 1}
+{"fisherman": 1, "boat": 1}
+{"robot": 1}
+{"butterfly": 1}
+{"leaf": 1}
+{"person": 1}
+{"horse": 1}
+{"snowflake": 1}
+{"tree": 1}
+{"person": 1}
+{"penguin": 1}
+{"lion": 1}
+{"boat": 1}
+{"raindrop": 1}
+{"cloud": 1}
+{"star": 1}
+{"person": 1}
+{"tigers": 2}
+{"birds": 2}
+{"people": 2}
+{"horses": 2}
+{"dragons": 2}
+{"lions": 2}
+{"butterflies": 2}
+{"cats": 2}
+{"flowers": 2}
+{"wolves": 2}
+{"penguins": 2}
+{"deer": 2}
+{"rabbits": 2}
+{"zebras": 2}
+{"cars": 2}
+{"tiger": 1, "lion": 1}
+{"bird": 1, "butterfly": 1}
+{"person": 1, "dog": 1}
+{"horse": 1, "rider": 1}
+{"car": 1, "cyclist": 1}
+{"dragon": 1, "phoenix": 1}
+{"person": 1, "bird": 1}
+{"surfer": 1, "whale": 1}
+{"fisherman": 1, "boat": 1}
+{"woman": 1, "man": 1}
+{"deer": 1, "rabbit": 1}
+{"person": 1, "child": 1}
+{"flower": 1, "bee": 1}
+{"wolf": 1, "fox": 1}
+{"cat": 1, "bird": 1}
+{"children": 3}
+{"birds": 3}
+{"dancers": 3}
+{"friends": 3}
+{"students": 3}
+{"surfers": 3}
+{"musicians": 3}
+{"robots": 3}
+{"chefs": 3}
+{"tourists": 3}
+{"kids": 4}
+{"athletes": 4}
+{"friends": 4}
+{"workers": 4}
+{"astronauts": 4}
+{"dancers": 4}
+{"chefs": 4}
+{"robots": 4}
+{"cyclists": 4}
+{"people": 4}
+{"children": 5}
+{"scientists": 5}
+{"friends": 5}
+{"photographers": 5}
+{"hikers": 5}
+{"athletes": 5}
+{"musicians": 5}
+{"chefs": 5}
+{"cars": 5}
+{"robots": 5}
+{"people": 6}
+{"adventurers": 6}
+{"dancers": 6}
+{"explorers": 6}
+{"children": 6}
+{"people": 6}
+{"astronauts": 6}
+{"friends": 6}
+{"bikers": 6}
+{"dancers": 6}
+{"person": 1, "cats": 2}
+{"man": 1, "dogs": 2}
+{"birds": 2, "dog": 1}
+{"children": 2, "dog": 1}
+{"surfer": 1, "dolphins": 2}
+{"musician": 1, "dancers": 2}
+{"robot": 1, "humans": 2}
+{"chefs": 2, "waiter": 1}
+{"tourist": 1, "children": 2}
+{"kids": 2, "dog": 1}
+{"athlete": 1, "coaches": 3}
+{"friends": 2, "dogs": 2}
+{"astronaut": 1, "robots": 3}
+{"dancers": 2, "musicians": 2}
+{"windmills": 3, "house": 1}
+{"robot": 1, "humans": 3}
+{"cyclists": 2, "goats": 2}
+{"people": 3, "bird": 1}
+{"child": 1, "animals": 4}
+{"kids": 2, "balloons": 3}
+{"shepherd": 1, "sheep": 4}
+{"hikers": 2, "birds": 3}
+{"athletes": 3, "coaches": 2}
+{"musician": 1, "dancers": 4}
+{"man": 3, "dogs": 2}
+{"cars": 2, "bikes": 3}
+{"robot": 1, "engineers": 4}
+{"teachers": 2, "students": 4}
+{"cat": 1, "balls": 5}
+{"adults": 2, "children": 4}
+{"cats": 3, "mice": 2}
+{"surfers": 2, "sailboats": 3}
+{"children": 4, "snowman": 2}
+{"trucks": 3, "buses": 2}
+{"farmers": 3, "horses": 2}
+{"tourists": 4, "animals": 2}
+{"visitor": 1, "pandas": 5}
+{"explorers": 3, "monkeys": 3}
+{"children": 4, "flowers": 2}
+{"dancers": 2, "singers": 4}
+{"dog": 1, "child": 1, "cyclist": 1}
+{"photographer": 1, "drone": 1, "model": 1}
+{"boy": 1, "cat": 1, "dog": 1}
+{"doctor": 1, "nurse": 1, "patient": 1}
+{"runner": 1, "cyclist": 1, "pedestrian": 1}
+{"mother": 1, "child": 1, "bird": 1}
+{"actor": 1, "director": 1, "technician": 1}
+{"artist": 1, "easel": 1, "paintbrush": 1}
+{"car": 1, "cone": 1, "worker": 1}
+{"runner": 1, "clock": 1, "station": 1}
+{"tourists": 2, "camera": 1, "guidebook": 1}
+{"friends": 2, "skateboard": 1}
+{"chefs": 2, "board": 1, "pin": 1}
+{"dancers": 2, "spotlight": 1}
+{"kids": 2, "ball": 1, "goalpost": 1}
+{"cyclists": 2, "rack": 1, "pedestrian": 1}
+{"hikers": 2, "backpack": 1}
+{"musicians": 2, "violin": 1, "piano": 1}
+{"kids": 2, "dog": 1, "cat": 1}
+{"photographers": 2, "bag": 1, "model": 1}
+{"child": 1, "truck": 1, "balloons": 3}
+{"tourists": 2, "monkeys": 2, "banana": 1}
+{"workers": 2, "crane": 1, "beams": 2}
+{"friends": 3, "scooter": 1}
+{"hikers": 3, "camera": 1, "flag": 1}
+{"kids": 3, "ball": 1, "fountain": 1}
+{"man": 2, "dogs": 2}
+{"tourists": 3, "bus": 1, "monument": 1}
+{"firefighters": 2, "firetruck": 1, "hose": 2}
+{"artists": 3, "cat": 1}
+{"truck": 1, "workers": 2, "crates": 3}
+{"aircraft": 3, "member": 1, "flags": 2}
+{"children": 3, "balloons": 2, "stick": 1}
+{"tourists": 3, "suitcases": 2, "trolley": 1}
+{"chefs": 3, "ovens": 2, "pan": 1}
+{"cat": 1, "dog": 1, "spectators": 4}
+{"cows": 2, "pigs": 2, "sheep": 2}
+{"children": 2, "balloons": 2, "cones": 2}
+{"builders": 3, "excavators": 2, "wall": 1}
+{"lanterns": 4, "person": 1}
+{"penguins": 7}
+{"bicycles": 7}
+{"umbrellas": 7}
+{"hourglasses": 7}
+{"balloons": 7}
+{"balloons": 8}
+{"birds": 8}
+{"fish": 8}
+{"cars": 8}
+{"boats": 8}
+{"cars": 3, "drones": 4}
+{"horses": 5, "eagles": 2}
+{"kayakers": 4, "sheep": 3}
+{"sparrows": 6, "butterfly": 1}
+{"cyclists": 2, "dogs": 5}
+{"leaves": 4, "bubbles": 4}
+{"elephants": 3, "cheetahs": 5}
+{"fireflies": 6, "bats": 2}
+{"lanterns": 5, "feathers": 3}
+{"children": 2, "puffs": 6}
+{"meteors": 5, "eagle": 1}
+{"penguins": 5, "seals": 2, "whale": 1}
+{"balloons": 3, "biplanes": 2, "skydivers": 2}
+{"hackers": 4, "drones": 2, "camera": 1}
+{"knights": 2, "rats": 4, "banner": 1}
+{"lions": 3, "meteors": 4, "hero": 1}
+{"parrots": 5, "monkeys": 2, "jaguar": 1}
+{"surfers": 4, "dolphins": 3, "seagull": 1}
+{"astronauts": 2, "debris": 5, "star": 1}
+{"samurai": 3, "blossoms": 4, "cat": 1}

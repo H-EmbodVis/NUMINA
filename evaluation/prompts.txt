@@ -1,0 +1,210 @@
+A lone astronaut floating in space.
+A single tiger walking through a jungle.
+A person standing on a mountain peak at sunrise.
+A black cat wandering through an empty alley at night.
+A single flower blooming in the middle of a field.
+A person reading a book in a quiet library.
+A dragon flying through a misty sky.
+A lone wolf howling at the moon.
+A single candle flickering in a dark room.
+A deer grazing in a peaceful forest clearing.
+A person painting on a large canvas in a studio.
+A shark swimming in the deep ocean.
+A bird soaring over a vast desert.
+A surfer riding a huge wave.
+A lone fisherman on a small boat in the middle of the sea.
+A giant robot standing still in a futuristic city.
+A butterfly fluttering over a garden full of flowers.
+A single leaf falling from a tree in autumn.
+A person meditating on a tranquil beach.
+A lone horse running through a wide-open prairie.
+A snowflake drifting down from the sky on a cold winter day.
+A single tree standing in the middle of a barren landscape.
+A person practicing yoga in a quiet park at sunset.
+A penguin waddling on an icy landscape.
+A lion resting in the shade of a tree on the savannah.
+A boat drifting along a calm river at dusk.
+A single raindrop falling on a windowpane.
+A single cloud drifting across a clear blue sky.
+A single star shining brightly in the night sky.
+A person walking alone through a bustling city street at night.
+Two tigers chasing each other through a dense jungle.
+Two birds flying in the sky, soaring above the forest.
+Two people running along the beach, their footprints in the sand.
+Two horses galloping side by side across a wide-open field.
+Two dragons soaring through the sky, leaving trails of fire behind them.
+Two lions hunting together in the savannah.
+Two butterflies fluttering across a blooming flower field.
+Two cats playfully chasing each other through the house.
+Two flowers swaying in the breeze, their petals fluttering.
+Two wolves running in the snow, their paws leaving tracks.
+Two penguins sliding across the icy landscape, having fun.
+Two deer running through a meadow, leaping over fallen branches.
+Two rabbits hopping in the grass, playfully chasing one another.
+Two zebras running on the grassland.
+Two cars driving on the road.
+A tiger and a lion hunting together in the jungle.
+A bird and a butterfly fluttering through the garden, dancing in the wind.
+A person and a dog running along the beach, the dog wagging its tail.
+A horse and a rider galloping across the plain, their movement fast and powerful.
+A car and a cyclist racing down the road, the wheels spinning at full speed.
+A dragon and a phoenix flying through the sky, their wings gliding in sync.
+A person and a bird standing on a tree branch, the bird taking off into the sky.
+A surfer and a whale riding the same wave, moving together through the water.
+A fisherman and a boat drifting gently along a calm river, casting a line into the water.
+A woman and a man walking through the city, laughing and talking.
+A deer and a rabbit grazing in a meadow, their ears twitching at the slightest sound.
+A person and a child playing together in the park, chasing a bouncing ball.
+A flower and a bee buzzing around it, the bee collecting pollen.
+A wolf and a fox running side by side through the snow-covered forest.
+A cat and a bird perched on a fence, the cat eyeing the bird carefully.
+Three children playing football.
+Three birds flying over a lake.
+Three dancers performing on a city street.
+Three friends hiking up a mountain.
+Three students reading books under a tree.
+Three surfers riding the waves.
+Three musicians playing instruments.
+Three robots working on an assembly line.
+Three chefs cooking in a restaurant kitchen.
+Three tourists taking photos near a landmark.
+Four kids riding bikes down a hill.
+Four athletes participating in a relay race.
+Four friends kayaking on a river.
+Four construction workers building a skyscraper.
+Four astronauts floating in space.
+Four dancers practicing in a studio.
+Four chefs preparing meals in a food market.
+Four robots cleaning the streets in a futuristic city.
+Four cyclists riding through a mountain trail.
+Four people playing a beach volleyball game.
+Five children playing hide-and-seek in a forest.
+Five scientists working in a laboratory.
+Five friends dancing at a party.
+Five photographers taking shots of a sunset.
+Five hikers crossing a wooden bridge over a river.
+Five athletes in a tug-of-war competition.
+Five musicians playing a live concert on a stage.
+Five chefs preparing food at a food truck.
+Five cars racing down a desert highway.
+Five robots assembling a car.
+Six people playing basketball in an outdoor court.
+Six adventurers rafting down a river.
+Six dancers performing a synchronized routine in a field.
+Six explorers walking through a dense jungle.
+Six children making sandcastles on a beach.
+Six people skied down from the mountain.
+Six astronauts walking on the moon.
+Six friends camping in a forest.
+Six bikers racing through a mountain trail.
+Six dancers performing a flash mob in a shopping mall.
+One person and two cats playing in the park.
+A man walking two dogs.
+Two birds and one dog flying over a lake.
+Two children and one dog playing football.
+One surfer and two dolphins riding the waves.
+One musician and two dancers performing on a city street.
+One robot and two humans assembling a machine.
+Two chefs and one waiter serving food in a restaurant.
+One tourist and two children taking photos near a landmark.
+Two kids and one dog riding bikes down a hill.
+One athlete and three coaches training on a track.
+Two friends and two dogs hiking up a mountain.
+One astronaut and three robots exploring space.
+Two dancers and two musicians performing in a studio.
+Three windmills are turning behind a house.
+One robot and three humans cleaning a street.
+Two cyclists and two mountain goats riding through a trail.
+Three people and one bird playing a beach volleyball game.
+One child and four animals playing hide-and-seek in a forest.
+Two kids holding three balloons.
+A shepherd is herding four sheep.
+Two hikers and three birds crossing a wooden bridge over a river.
+Three athletes and two coaches in a tug-of-war competition.
+One musician and four dancers performing a live concert.
+Three man walking two dogs.
+Two cars and three bikes racing down a desert highway.
+One robot and four engineers assembling a car.
+Two teachers teaching four students in the classroom.
+One cat playing with five balls of yarn.
+Two adults and four children camping in a forest.
+Three cats surrounding two mice.
+Two surfers and three sailboats drifting in the waves.
+Four children making two snowman.
+Three trucks and two buses driving on the highway.
+Three farmers feeding two horses.
+Four tourists and two animals taking photos near a famous landmark.
+One visitor watching five pandas.
+Three explorers and three monkeys hiking through a jungle.
+Four children presenting two flowers.
+Two dancers and four singers performing in a studio.
+One dog, one child, and one cyclist race down a hill, the child steering the skateboard while the dog runs alongside.
+One photographer, one drone, and one model pose for a photoshoot in a city park, the drone hovering above capturing the scene.
+One boy, one cat, and one dog play on a beach, the boy throwing a frisbee while the dog and cat chase after it.
+One doctor, one nurse, and one patient walk down a hospital corridor, the nurse pushing the patient's wheelchair while the doctor walks ahead.
+One runner, one cyclist, and one pedestrian walk on a park trail, the runner leading the way as the cyclist passes by.
+One mother, one child, and one bird in a garden, the child and mother watching the bird hop from branch to branch.
+One actor, one director, and one lighting technician on a film set, the director instructing the actor while the technician adjusts the lights.
+One artist, one easel, and one paintbrush, the artist quickly applying paint to the canvas outdoors, catching the sunlight.
+One car, one traffic cone, and one construction worker at a construction site, the car driving by while the worker adjusts the cone.
+One runner, one clock, and one hydration-station at a marathon, the runner glancing at the clock as they approach the water station.
+Two tourists, one camera, and one guidebook in a busy market, the tourists taking photos as they flip through the book.
+Two friends, one skateboard, and one bus stop at a skate park, the friends performing tricks on the skateboard while waiting for the bus.
+Two chefs, one chopping-board, and one rolling pin in a busy kitchen, the chefs preparing ingredients and rolling dough.
+Two dancers, one stage, and one spotlight in a theater, the dancers performing as the spotlight follows their movements.
+Two kids, one soccer ball, and one goalpost on a playground, the kids passing the ball back and forth, aiming for the goal.
+Two cyclists, one bike rack, and one pedestrian on a busy street, the cyclists locking their bikes while the pedestrian walks by.
+Two hikers, one mountain trail, and one backpack, the hikers walking up the trail, adjusting their backpacks as they talk.
+Two musicians, one violin, and one piano in a music studio, the musicians playing together, one on the piano and the other on the violin.
+Two kids playing with a dog and a cat.
+Two photographers, one camera bag, and one model posing for a photoshoot, the photographers adjusting their settings while the model strikes a pose.
+One child, one ice cream truck, and three balloons float nearby as the child happily runs toward the truck to buy an ice cream.
+Two tourists watching two monkeys fighting for one banana.
+Two construction workers, one crane, and two steel-beams being hoisted onto a building, the workers guiding the crane's movement.
+Three friends, one scooter, and one tree, the friends taking turns riding the scooter down the sidewalk, laughing.
+Three hikers, one camera, and one flag at the summit, the hikers celebrating reaching the top while planting the flag.
+Three kids, one soccer ball, and one water fountain at a playground, the kids passing the ball while taking turns getting water from the fountain.
+Two man and two dogs resting near a campfire.
+Three tourists, one city bus, and one monument, the tourists taking photos while riding the bus past the famous monument.
+Two firefighters, one firetruck, and two hose at the scene of a fire, the firefighters working quickly, spraying water from the truck.
+Three artists drawing together on a canvas, while a cat sleeping on the ground nearby.
+One truck, two workers, and three crates of goods at a loading dock, the workers unloading the crates while the truck idles nearby.
+Three aircraft were preparing to take off from the runway, and a ground crew-member was waving two flags.
+Three children holding two balloons and a stick.
+Three tourists, two suitcases, and one luggage trolley at the airport, the tourists loading their bags onto the trolley as they head to their gate.
+Three chefs, two ovens, and one pan, the chefs cooking multiple dishes while checking their timers and arranging ingredients.
+A anthropomorphic cat and a anthropomorphic dog are boxing on the stage, and there are four spectators in the audience below.
+Two cows and two pigs and two sheep wandering in the yarn.
+Two children, two balloons, and two icecream cones at the park, the children walking around, enjoying their ice creams while floating their balloons.
+Three builders, two excavators, and one brick-wall under construction, the builders working together.
+Four lanterns are swinging on a single string, a person walked beneath them.
+Seven penguins waddling on ice, sliding on their bellies, and diving into cold ocean waters.
+Seven bicycles cycling through a park, with riders pedaling past trees and a serene lake.
+Seven umbrellas being whipped inside-out by storm winds, fabric flapping violently, spinning and cart-wheeling across the ground.
+Seven hourglasses continuously flipping over themselves, sand streams reversing mid-flow, tumbling and rotating in zero gravity.
+Seven balloons rapidly ascending and spinning, colliding mid-air.
+Eight red balloons swirling and dancing wildly in the sky.
+Eight small birds swooping and diving in unison through the mountains.
+Eight golden koi fish darting and chasing each other in a pond.
+Eight racing cars skidding and weaving through a city at night.
+Eight boats bobbing and spinning rapidly down a river.
+Three racing cars skidding alongside four low-flying drones through a neon-lit city tunnel.
+Five wild horses galloping across a plain as two eagles swoop down low beside them.
+Four kayakers paddling vigorously through rapids while three sheep watch from the rocky riverbank.
+A flock of six sparrows darting through a garden as a single butterfly flutters erratically among them.
+Two cyclists racing down a mountain road, chased by a playful pack of five dogs.
+Four falling maple leaves spiraling amidst four rising soap bubbles in a sunlit garden.
+Three elephants and five cheetahs walking on the savanna.
+Six glowing fireflies blinking erratically around two swooping bats at twilight.
+Five floating paper lanterns ascending past three drifting feathers over an evening lake.
+Two children running through a field kicking six bouncing dandelion puffs into the air.
+A volcano spewing embers as five meteors streak across the sky and one eagle circles.
+Five penguins sliding on ice as two seals play in the water and a single whale breaches.
+Three hot air-balloons drifting as two biplanes perform loops and two skydivers fall.
+Four hackers typing in a dark server room as two drones hover and a security camera is watching.
+Two knights fighting in a castle hall as four rats scurry and a single banner falls.
+Three lions circling a castle as four meteors impact the ground and one hero stands.
+Five parrots taking flight from a jungle canopy as two monkeys swing and one jaguar leaps.
+Four surfers riding a giant wave as three dolphins jump and a single seagull dives.
+Two astronauts repairing a satellite as five small debris-pieces fly by and a distant star glows.
+Three samurai standing in the rain as four cherry blossoms swirl and one cat runs past.
