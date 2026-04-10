@@ -7,7 +7,7 @@
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square"></a>
 
 
-[Zhengyang Sun](mailto:zysun@hust.edu.cn)<sup>1*</sup>, [Yu Chen](mailto:yuchen66@hust.edu.cn)<sup>1*</sup>, [Xin Zhou](https://lmd0311.github.io/)<sup>1,3</sup>, Xiaofan Li<sup>2</sup>, Xiwu Chen<sup>3†</sup>, [Dingkang Liang](https://dk-liang.github.io/)<sup>1†</sup> and [Xiang Bai](https://scholar.google.com/citations?user=UeltiQ4AAAAJ&hl=en)<sup>1✉</sup>
+[Zhengyang Sun](mailto:zysun@hust.edu.cn)<sup>1*</sup>, [Yu Chen](mailto:yuchen66@hust.edu.cn)<sup>1*</sup>, [Xin Zhou](https://lmd0311.github.io/)<sup>1,3</sup>, Xiaofan Li<sup>2</sup>, [Xiwu Chen](https://github.com/XiwuChen)<sup>3†</sup>, [Dingkang Liang](https://dk-liang.github.io/)<sup>1†</sup> and [Xiang Bai](https://scholar.google.com/citations?user=UeltiQ4AAAAJ&hl=en)<sup>1✉</sup>
  
   <sup>1</sup> Huazhong University of Science and Technology, <sup>2</sup> Zhejiang University, <sup>3</sup> Afari Intelligent Drive
 
