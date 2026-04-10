@@ -2,7 +2,7 @@
   <h1>When Numbers Speak: Aligning Textual Numerals and <br> Visual Instances in Text-to-Video Diffusion Models</h1>
 
 
-  <a href="https://https://arxiv.org/abs/2604.08546"><img src="https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=Arxiv"></a> 
+  <a href="https://arxiv.org/abs/2604.08546"><img src="https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=Arxiv"></a> 
   <a href="https://h-embodvis.github.io/NUMINA"><img src="https://img.shields.io/badge/Homepage-project-blue.svg?logo=googlehome"></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square"></a>
 
